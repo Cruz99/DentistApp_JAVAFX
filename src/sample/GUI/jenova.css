@@ -1,0 +1,36 @@
+#background_image_main{
+    -fx-opacity: 0.5;
+}
+#main-borderPane{
+    -fx-border-color: red;
+    -fx-border-width: 2px;
+    -webkit-fx-border-style: solid;
+    -fx-opacity: 1;
+}
+
+
+#header-box, #center-box{
+    -fx-border-color: black;
+    -fx-border-width: 2px;
+    -webkit-fx-border-style: solid;
+    -fx-background-color: rgba(0, 0, 0, 0.6);
+
+}
+#login-Hbox{
+    -fx-border-color: yellow;
+    -fx-border-width: 2px;
+    -webkit-fx-border-style: solid;
+}
+#header-box{
+}
+#login-info-label{
+    -fx-font-size: 30px;
+    -fx-text-fill:  white;
+}
+#login-label-hbox{
+    -fx-border-width: 2px;
+    -fx-background-radius: 20px;
+    -webkit-fx-border-style: solid;
+    -fx-max-height: 200px;
+    -fx-background-color: rgba(0, 0, 0, 0.8);
+}
